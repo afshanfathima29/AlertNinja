@@ -8,13 +8,13 @@ class NetworkScannerGUI:
         self.root.title("AlertNinja")
         self.root.geometry("800x600")
         
-        # Configure style
+        # Configure style:
         self.style = ttk.Style()
         self.style.theme_use('classic')
         self.create_widgets()
         
     def create_widgets(self):
-        # Header Frame
+        # Header Frame:
         header_frame = ttk.Frame(self.root)
         header_frame.pack(fill=tk.X, padx=10, pady=10)
         
